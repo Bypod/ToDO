@@ -14,7 +14,7 @@ btn.addEventListener('click', (e)=>{
         ex.innerHTML = 'x';
         myLi.appendChild(ex)
     }
-    const remove = document.getElementById('span')
+    const remove = document.querySelectorAll('span')
     for(let i=0;  i < remove.length; i++) {
         remove[i].addEventListener('click', (e)=>{
             remove[i].parentElement.style.opacity = 0;
